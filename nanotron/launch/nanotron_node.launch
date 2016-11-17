@@ -1,0 +1,10 @@
+<launch>
+
+  <node pkg="nanotron" type="nanotron_node" name="nanotron_node" output="screen" >
+    <param name="device" value = "/dev/ttyUSB0"/>		# Serial device id
+    <param name="frame_id" value = "nanotron"/>			# Frame id used in range messages
+    <param name="ini_id" value = "1"/>					# Init id for node discovery 
+    <param name="end_id" value = "7"/>					# End id for node discovery 
+  </node>
+
+</launch>

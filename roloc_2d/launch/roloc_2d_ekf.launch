@@ -1,0 +1,21 @@
+<launch>
+
+  <node name="roloc_ekf_node" pkg="roloc_2d" type="roloc_ekf_node" output="screen">
+    <param name="update_rate" value="5.0"/>
+    <param name="odom_d_dev" value="0.1"/>
+    <param name="odom_a_dev" value="0.01"/>
+    <param name="update_min_d" value="0.3"/>
+    <param name="update_min_a" value="0.2"/>
+    <param name="init_x" value="0.0"/>
+    <param name="init_y" value="0.0"/>
+    <param name="init_a" value="0.0"/>
+    <param name="init_x_dev" value="1.0"/>
+    <param name="init_y_dev" value="1.0"/>
+    <param name="init_a_dev" value="0.2"/>
+    <param name="height_correction" value="0.7"/>
+    <param name="base_frame_id" value="base_link"/>
+    <param name="odom_frame_id" value="odom"/>
+    <param name="global_frame_id" value="map"/>
+  </node>
+
+</launch>
