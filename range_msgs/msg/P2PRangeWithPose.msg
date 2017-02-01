@@ -1,9 +1,10 @@
 # Software License Agreement (BSD License)
 #
-# Copyright (C) 2014 - 2015 Robotics, Vision and Control Group, University of Seville.
+# Copyright (C) 2014 - 2017 Robotics, Vision and Control Group, University of Seville.
 #   2014 Felipe R.Fabresse <fabresse@us.es>
 #   2015 Felipe R.Fabresse <felramfab@gmail.com>
-#	2016 Fernando Caballero <fcaballero@us.es>
+#   2016 Fernando Caballero <fcaballero@us.es>
+#   2017 Felipe R.Fabresse <felramfab@gmail.com>
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
